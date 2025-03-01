@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>𝖌𝖔𝖔𝖉 𝖒𝖔𝖗𝖓𝖎𝖓𝖌...</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="仿carrd.css">
+    <link rel="icon" href="早安你好.jpg">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960"><path d="m330-444 201 201-51 51-288-288 288-288 51 51-201 201h438v72H330Z"/></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960"><path d="M630-444H227.98q-15.29 0-25.64-10.29Q192-464.58 192-479.79t10.34-25.71q10.35-10.5 25.64-10.5H630L453.79-692.21Q443-703 443-717.5t11-25.98Q465-754 479.5-754t25.31 10.82L742.6-505.09q5.4 5.41 7.9 11.72 2.5 6.31 2.5 13.53 0 7.21-2.5 13.53Q748-460 743-455L505-217q-11 11-25 10.5t-25-11.02q-11-11.48-11-26.15 0-14.66 11-25.33l175-175Z"/></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960"><path d="M480-192q-120 0-204-84t-84-204q0-120 84-204t204-84q65 0 120.5 27t95.5 72v-63q0-15.3 10.29-25.65Q716.58-768 731.79-768t25.71 10.35Q768-747.3 768-732v168q0 15.3-10.35 25.65Q747.3-528 732-528H564q-15.3 0-25.65-10.29Q528-548.58 528-563.79t10.35-25.71Q548.7-600 564-600h95q-29-44-76-70t-103-26q-90 0-153 63t-63 153q0 90 63 153t153 63q75 0 132-45.5T687-424q4-14 16.5-22t26.53-6Q745-450 754-438.5q9 11.5 6 25.5-23 96-100 158.5T480-192Z"/></svg><a href=""><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960"><path d="M264-216h96v-204q0-15.3 10.35-25.65Q380.7-456 396-456h168q15.3 0 25.65 10.35Q600-435.3 600-420v204h96v-348L480-726 264-564v348Zm-72-12v-336q0-16.85 7.5-31.92Q207-611 221-622l216-162q20-14 43-14t43 14l216 162q14 11 21.5 26.08Q768-580.85 768-564v336q0 34.65-24.67 59.32Q718.65-144 684-144H564q-15.3 0-25.65-10.35Q528-164.7 528-180v-204h-96v204q0 15.3-10.35 25.65Q411.3-144 396-144H276q-34.65 0-59.32-24.68Q192-193.35 192-228Zm288-243Z"/></svg></a>
+            <div class="paging"><span class="material-symbols-rounded">browse</span>SakuraFox | GachaTuber<span class="material-symbols-rounded">close</span></div>
+        </header>
+        <hr>
+        <p class="link">creator-sakura-kitsune.com</p>
+        <div id="cover"><img src="20241117 2556431.png" height="500px"></div>
+        <nav>
+			<a href="#" class="button1" onclick="changeContent('self-intro')">
+				<span class="material-symbols-rounded">person</span>Self-Intro
+			</a>
+			
+            <a href="#" class="buttons" onclick="changeContent('socials')">
+                <span class="material-symbols-rounded">web_asset</span>Socials
+            </a>
+
+            <a href="#" class="buttons" onclick="changeContent('commission')">
+                <span class="material-symbols-rounded">brush</span>Commission
+            </a>
+
+            <a href="#" class="buttons" onclick="changeContent('oc-codes')">
+                <span class="material-symbols-rounded">content_copy</span>OC-Codes
+            </a>
+            
+        </nav>
+        <main>
+            <div id="content">
+                <div class='home'>
+                    <div class='left'>
+                        <h4>Welcome👋</h4>
+                        <hr class="hr-titles">
+                        <p class="welcome">I'm SakuraFox, a digital artist from Taiwan! :D</p>
+                    </div>
+                    <div class='right'>
+                        <h4>Languages</h4>
+                        <hr class="hr-titles">
+                        <p>Taiwanese</p>
+                        <p>★ ★ ★ ✰ ✰</p>
+                        <hr class="hr-content">
+                        <p>Mandarin</p>
+                        <p>★ ★ ★ ★ ✰</p>
+                        <hr class="hr-content">
+                        <p>English</p>
+                        <p>★ ★ ★ ✰ ✰</p>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <hr class="hr-footer">
+        <footer>
+            <div class="blank">
+                <p>Copyright © 2025 白櫻狐奈SakuraFox</p>
+                <p>Web Design by 白櫻狐奈SakuraFox</p>
+            </div>
+        </footer>
+
+    </div>
+
+    <script>
+        function changeContent(page) {
+            var contentDiv = document.getElementById('content');
+    
+            switch (page) {
+                case 'self-intro':
+                    contentDiv.innerHTML = 
+                        "<div class='self-intro'><div class='left'></div><div class='right'></div></div>";
+                    break;
+                case 'socials':
+                    contentDiv.innerHTML = 
+                        "<div class='socials'><div class='left'></div><div class='right'></div></div>";
+                    break;
+                case 'oc-codes':
+                    contentDiv.innerHTML = 
+                        "<div class='oc-codes'><div class='left'></div><div class='right'></div></div>";
+                    break;
+                case 'commission':
+                    contentDiv.innerHTML = 
+                        "<div class='commission'><div class='left'></div><div class='right'></div></div>";
+                    break;
+
+            }
+        }
+    </script>
+</body>
+</html>
